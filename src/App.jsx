@@ -45,7 +45,7 @@ const App = () => {
             placeholder: "Write your Password",
             type: "password",
             label: "Password",
-            pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
+            pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{4,10}$`,
             errorMessage: "Passwords must have between 4 and 10 characters and include 1 letter, 1 number and 1 special character",
             required: true
         },
